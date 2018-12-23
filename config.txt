@@ -1,0 +1,26 @@
+để chạy gõ
+node tenfile.js
+
+phải cùng đường dẫn
+
+** cai dat
+
+// chay ko can restart lai server
+npm install -g nodemon 
+//de run -> nodemon tenfile.js
+
+// express.js module
+npm install express --save
+
+// ejs module co th su dung bien trong html
+npm install ejs --save
+
+// cai mongooseDB
+npm install mongoose --save
+
+//mlab : cloud hosting DB
+user:apoolo90
+pass:tranlong1990
+
+userDB: apoolo90
+passDB: admin90

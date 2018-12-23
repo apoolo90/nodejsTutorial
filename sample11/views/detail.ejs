@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hien thi id : <%= id %></h1>
+    <p>name : <%= information.name %></p>
+    <p>age : <%= information.age %></p>
+    <p>nghe nghiep : <%= information.nghenghiep %></p>
+    <p>que quan : <%= information.quequan %></p>
+
+    <h2>so thich</h2>
+    <ul>
+        <% information.sothich.forEach(function(item){ %>
+            <li><%= item %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
